@@ -1,21 +1,15 @@
 package io.github.johnsonsdictionary.adjectiveadverbmappings.mapping.impl;
 
-import io.github.johnsonsdictionary.adjectiveadverbmappings.mapping.AdjectiveAdverbMappers;
 import io.github.johnsonsdictionary.adjectiveadverbmappings.AdjectiveAdverbMappings;
+import io.github.johnsonsdictionary.adjectiveadverbmappings.mapping.AdjectiveAdverbMappers;
 import io.github.johnsonsdictionary.adjectiveadverbmappings.mapping.impl.base.AdjectiveAdverbMapperTestBase;
-import io.github.johnsonsdictionary.dictionary.core.util.JohnsonsDictionaryWordDefinitionCSVReader;
-import io.github.johnsonsdictionary.dictionary.core.words.JohnsonsDictionaryWordDefinition;
-import io.github.johnsonsdictionary.dictionary.core.words.JohnsonsDictionaryWordDefinitionId;
 import io.github.johnsonsdictionary.dictionary.core.words.WordType;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.SortedMap;
+import static io.github.johnsonsdictionary.dictionary.core.JohnsonsDictionary.DICTIONARY;
 
 
 public class JohnsonsAdjectiveAdverbMapperTest extends AdjectiveAdverbMapperTestBase {
-
-    public static SortedMap<JohnsonsDictionaryWordDefinitionId, JohnsonsDictionaryWordDefinition> DICTIONARY = new JohnsonsDictionaryWordDefinitionCSVReader(false, "/dictionary_placeholder.csv").load();
 
     @Test
     public void testAdjectiveAdverbMapping() {

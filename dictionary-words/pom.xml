@@ -20,6 +20,51 @@
         </dependency>
         <dependency>
             <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>interjections</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>prepositions</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>articles</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>superlative-adjectives</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>particles</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>unclassified-words</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>pronouns</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>conjunctions</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
+            <artifactId>nouns</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.johnsonsdictionary</groupId>
             <artifactId>adjectives-not-mapped-to-adverbs</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>

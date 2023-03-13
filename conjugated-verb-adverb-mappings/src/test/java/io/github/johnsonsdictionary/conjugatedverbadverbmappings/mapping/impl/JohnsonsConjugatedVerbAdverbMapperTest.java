@@ -12,10 +12,10 @@ import org.junit.jupiter.api.Test;
 
 import java.util.SortedMap;
 
+import static io.github.johnsonsdictionary.dictionary.core.JohnsonsDictionary.DICTIONARY;
+
 
 public class JohnsonsConjugatedVerbAdverbMapperTest extends ConjugatedVerbAdverbMapperTestBase {
-
-    public static SortedMap<JohnsonsDictionaryWordDefinitionId, JohnsonsDictionaryWordDefinition> DICTIONARY = new JohnsonsDictionaryWordDefinitionCSVReader(false, "/dictionary_placeholder.csv").load();
 
     @Test
     public void testConjugatedVerbAdverbMapping() {

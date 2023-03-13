@@ -7,6 +7,6 @@ public class JohnsonsDictionaryTest {
 
     @Test
     public void testDictionaryLoad() {
-        Assertions.assertEquals(1, JohnsonsDictionary.DICTIONARY.size());
+        Assertions.assertEquals(43464, JohnsonsDictionary.DICTIONARY.size());
     }
 }

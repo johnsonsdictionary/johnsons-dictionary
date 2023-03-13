@@ -11,8 +11,17 @@
         <module>dictionary-core</module>
         <module>adverbs-not-mapped-from-adjectives-or-verbs</module>
         <module>adjective-adverb-mappings</module>
-	<module>conjugated-verb-adverb-mappings</module>
-	<module>adjectives-not-mapped-to-adverbs</module>
-	<module>dictionary-words</module>
-   </modules>
+        <module>conjugated-verb-adverb-mappings</module>
+        <module>adjectives-not-mapped-to-adverbs</module>
+        <module>superlative-adjectives</module>
+        <module>interjections</module>
+        <module>prepositions</module>
+        <module>conjunctions</module>
+        <module>pronouns</module>
+        <module>articles</module>
+        <module>particles</module>
+        <module>nouns</module>
+        <module>dictionary-words</module>
+        <module>unclassified-words</module>
+    </modules>
 </project>

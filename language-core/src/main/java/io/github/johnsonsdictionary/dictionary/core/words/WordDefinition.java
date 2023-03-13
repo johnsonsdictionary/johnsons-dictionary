@@ -69,4 +69,8 @@ public class WordDefinition {
     public WordDefinitionId getWordDefinitionId() {
         return wordDefinitionId;
     }
+
+    public Optional<Boolean> getStressOnLastSyllable() {
+        return stressOnLastSyllable;
+    }
 }
