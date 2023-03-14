@@ -22,6 +22,9 @@
         <module>particles</module>
         <module>nouns</module>
         <module>dictionary-words</module>
+        <module>verbs</module>
+	<module>preterites-and-participles-without-verbs</module>
         <module>unclassified-words</module>
+	<module>obsolete-words</module>
     </modules>
 </project>

@@ -1,3 +1,3 @@
-# interjections
+# prepositions
 
-Initial cache of interjections
+Initial cache of prepositions

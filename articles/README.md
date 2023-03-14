@@ -1,3 +1,3 @@
-# interjections
+# articles
 
-Initial cache of interjections
+Initial cache of articles

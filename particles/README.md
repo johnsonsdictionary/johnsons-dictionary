@@ -1,3 +1,3 @@
-# interjections
+# particles
 
-Initial cache of interjections
+Initial cache of particles

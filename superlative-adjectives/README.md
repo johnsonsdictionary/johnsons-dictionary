@@ -1,3 +1,3 @@
-# interjections
+# superlative-adjectives
 
-Initial cache of interjections
+Initial cache of adjectives

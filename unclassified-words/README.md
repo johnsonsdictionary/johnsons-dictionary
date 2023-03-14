@@ -1,3 +1,3 @@
-# interjections
+# unclassified-words
 
-Initial cache of interjections
+Initial cache of unclassified words
