@@ -24,6 +24,7 @@
         <module>dictionary-words</module>
         <module>verbs</module>
 	<module>preterites-and-participles-without-verbs</module>
+	<module>omitted-preterites-and-participles</module>
         <module>unclassified-words</module>
 	<module>obsolete-words</module>
     </modules>

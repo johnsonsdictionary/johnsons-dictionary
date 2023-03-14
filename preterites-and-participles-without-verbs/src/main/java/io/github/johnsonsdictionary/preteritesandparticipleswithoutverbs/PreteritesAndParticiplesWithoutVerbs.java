@@ -21,16 +21,16 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 /**
- * Statically defined variables to hold loaded collections of pronouns
+ * Statically defined variables to hold loaded collections of preterites and participles
  *
  * @author Michael Lavelle
  */
-public class PretoritesAndParticiplesWithoutVerbs {
+public class PreteritesAndParticiplesWithoutVerbs {
 
 
-    private final static String PRETORITES_AND_PARTICIPLES_WITHOUT_VERBS_FILE_PATH = "/preterites-and-participles-without-verbs/preterites_and_participles_without_verbs.csv";
+    private final static String PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS_FILE_PATH = "/preterites-and-participles-without-verbs/preterites_and_participles_without_verbs.csv";
 
-    public final static SortedMap<WordDefinitionId, WordDefinition> ALL_PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS = new WordDefinitionCSVReader(false, PRETORITES_AND_PARTICIPLES_WITHOUT_VERBS_FILE_PATH).load();
+    public final static SortedMap<WordDefinitionId, WordDefinition> ALL_PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS = new WordDefinitionCSVReader(false, PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS_FILE_PATH).load();
 
     public final static SortedMap<WordDefinitionId, WordDefinition> ALL_WORDS = new TreeMap<>();
 

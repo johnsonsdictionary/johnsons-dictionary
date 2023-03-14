@@ -13,7 +13,7 @@ import io.github.johnsonsdictionary.nouns.Nouns;
 import io.github.johnsonsdictionary.obsoletewords.ObsoleteWords;
 import io.github.johnsonsdictionary.particles.Particles;
 import io.github.johnsonsdictionary.prepositions.Prepositions;
-import io.github.johnsonsdictionary.preteritesandparticipleswithoutverbs.PretoritesAndParticiplesWithoutVerbs;
+import io.github.johnsonsdictionary.preteritesandparticipleswithoutverbs.PreteritesAndParticiplesWithoutVerbs;
 import io.github.johnsonsdictionary.pronouns.Pronouns;
 import io.github.johnsonsdictionary.pronouns.SuperlativeAdjectives;
 import io.github.johnsonsdictionary.unclassifiedwords.UnclassifiedWords;
@@ -165,7 +165,7 @@ public class JohnsonsDictionaryWords {
 
     public static List<String> getPreteritesAndParticiplesWithoutVerbs() {
         List<String> unclassified = new ArrayList<>();
-        unclassified.addAll(PretoritesAndParticiplesWithoutVerbs.ALL_PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
+        unclassified.addAll(PreteritesAndParticiplesWithoutVerbs.ALL_PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
         unclassified = unclassified.stream().distinct().collect(Collectors.toList());
         Collections.sort(unclassified);
         return unclassified;
