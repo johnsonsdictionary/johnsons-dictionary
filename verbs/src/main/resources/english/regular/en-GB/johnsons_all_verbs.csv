@@ -455,6 +455,7 @@ bechance,false,be,chance
 beck,false,beck
 beckon,false,beckon
 beclip,false,be,clip
+bed,true,bed
 bedabble,false,be,dabble
 bedaggle,false,be,daggle
 bedash,false,be,dash
@@ -555,6 +556,7 @@ bestow
 bestrew,false,be,strew
 bestride,false,be,stride
 bestud,false,be,stud
+bet,true,bet
 beteem,false,be,teem
 bethral,false,bethral
 bethump,false,be,thump
