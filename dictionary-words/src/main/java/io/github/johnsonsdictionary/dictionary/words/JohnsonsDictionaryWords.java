@@ -11,6 +11,7 @@ import io.github.johnsonsdictionary.dictionary.core.words.WordDefinition;
 import io.github.johnsonsdictionary.interjections.Interjections;
 import io.github.johnsonsdictionary.nouns.Nouns;
 import io.github.johnsonsdictionary.obsoletewords.ObsoleteWords;
+import io.github.johnsonsdictionary.omittedpreteritesandparticiples.OmittedPreteritesAndParticiples;
 import io.github.johnsonsdictionary.particles.Particles;
 import io.github.johnsonsdictionary.prepositions.Prepositions;
 import io.github.johnsonsdictionary.preteritesandparticipleswithoutverbs.PreteritesAndParticiplesWithoutVerbs;
@@ -163,6 +164,14 @@ public class JohnsonsDictionaryWords {
         return unclassified;
     }
 
+    public static List<String> getOmittedPreteritesAndParticiples() {
+        List<String> unclassified = new ArrayList<>();
+        unclassified.addAll(OmittedPreteritesAndParticiples.ALL_OMITTED_PRETERITES_AND_PARTICIPLES.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
+        unclassified = unclassified.stream().distinct().collect(Collectors.toList());
+        Collections.sort(unclassified);
+        return unclassified;
+    }
+
     public static List<String> getPreteritesAndParticiplesWithoutVerbs() {
         List<String> unclassified = new ArrayList<>();
         unclassified.addAll(PreteritesAndParticiplesWithoutVerbs.ALL_PRETERITES_AND_PARTICIPLES_WITHOUT_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
@@ -171,14 +180,14 @@ public class JohnsonsDictionaryWords {
         return unclassified;
     }
 
-    public static List<String> getAllCategorisedWords() {
+    public static List<String> getAllCategorisedWords(boolean includeOmitted) {
         List<String> words = new ArrayList<>();
         words.addAll(getAdverbs());
         words.addAll(getAdjectives());
         words.addAll(getSuperlativeAdjectives());
         words.addAll(getVerbs());
         // Don't include present participles or third person singular conjugations by default
-        words.addAll(getAllJohnsonsIrregularConjugations(false,false));
+        words.addAll(getAllJohnsonsIrregularConjugations(false,false, includeOmitted));
         words.addAll(getInterjections());
         words.addAll(getNounsAndPlurals());
         words.addAll(getPrepositions());
@@ -194,7 +203,7 @@ public class JohnsonsDictionaryWords {
 
     }
 
-    public static List<String> getAllJohnsonsIrregularConjugations(boolean includePresentParticiples, boolean includeThirdPersonSingular) {
+    public static List<String> getAllJohnsonsIrregularConjugations(boolean includePresentParticiples, boolean includeThirdPersonSingular, boolean includeOmitted) {
 
         List<Tense> tensesRequiringPastParticiples = Arrays.asList(Tense.PRESENT_PERFECT, Tense.PRESENT_CONTINUOUS,
                 Tense.PRESENT_CONTINUOUS, Tense.FUTURE_PERFECT, Tense.FUTURE_PERFECT_CONTINUOUS, Tense.FUTURE_CONTINUOUS,
@@ -223,6 +232,9 @@ public class JohnsonsDictionaryWords {
                     verbRelatedWords.add(iRegularVerbConjugation.getPresentTense(subjectType));
                 }
             }
+        }
+        if (includeOmitted) {
+            verbRelatedWords.addAll(getOmittedPreteritesAndParticiples());
         }
         verbRelatedWords = verbRelatedWords.stream().distinct().collect(Collectors.toList());
         return verbRelatedWords;

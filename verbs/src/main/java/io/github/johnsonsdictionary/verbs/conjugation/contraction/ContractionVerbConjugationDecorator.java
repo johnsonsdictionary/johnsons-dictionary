@@ -89,7 +89,6 @@ public class ContractionVerbConjugationDecorator implements VerbConjugation {
                 sentence = sentence.replace("I am", "I'm");
 
 
-
                 sentence = sentence.replace("We will", "We'll");
 
                 // Drop the ha
@@ -100,7 +99,6 @@ public class ContractionVerbConjugationDecorator implements VerbConjugation {
 
                 // Drop the a for first person singular to be
                 sentence = sentence.replace("We are", "We're");
-
 
 
                 // Drop the wi for third person singular will modal verb

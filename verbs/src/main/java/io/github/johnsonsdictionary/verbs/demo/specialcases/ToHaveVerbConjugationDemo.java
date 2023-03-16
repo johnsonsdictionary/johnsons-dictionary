@@ -44,7 +44,7 @@ public class ToHaveVerbConjugationDemo {
             return "You";
         } else if (SubjectType.SECOND_PERSON_PLURAL.equals(subjectType)) {
             return "You";
-        }else if (SubjectType.THIRD_PERSON_SINGULAR.equals(subjectType)) {
+        } else if (SubjectType.THIRD_PERSON_SINGULAR.equals(subjectType)) {
             return "He";
         } else if (SubjectType.THIRD_PERSON_PLURAL.equals(subjectType)) {
             return "They";

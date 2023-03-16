@@ -29,7 +29,6 @@ hit,true,hit
 hold,true,hold
 hurt
 keep
-kneel
 lay
 lead
 lend
@@ -44,11 +43,11 @@ misunderstand,true,mis,understand
 overshoot,true,over,shoot
 oversleep,true,over,sleep
 pay
-pay
 reave,false,reave
 rebuild,true,re,build
 remake,true,re,make
 repay
+rid,true,rid
 say
 seek
 sell
@@ -76,6 +75,7 @@ think
 undersell,true,under,sell
 understand
 unwind,true,un,wind
+wake
 wind
 withstand,false,with,stand
 wring

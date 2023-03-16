@@ -13,7 +13,6 @@ bereave
 bid,true,bid
 bite
 blow
-blow
 break
 browbeat,false,brow,beat
 burn
@@ -27,7 +26,6 @@ clothe
 come
 crow
 dare
-distract
 dive
 do
 draw
@@ -37,7 +35,6 @@ dress
 drink
 drive
 eat
-extract
 fall
 fight
 fleet
@@ -85,12 +82,10 @@ overthrow,true,over,throw
 partake,true,par,take
 pen,true,pen
 pitch
-prove
 reach,true,reach
 read
 relight,true,re,light
 retake,true,re,take
-rid,true,rid
 ride
 ring
 rise
@@ -131,7 +126,6 @@ undertake,true,under,take
 underwrite,true,under,write
 undo,true,un,do
 uphold,false,up,hold
-wake
 wear
 weave
 weep

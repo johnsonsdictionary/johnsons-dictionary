@@ -51,7 +51,7 @@ public class MeseemsVerbConjugation extends VerbConjugationBaseParent implements
 
     @Override
     public List<String> getPastParticiples() {
-        throw new UnsupportedOperationException("No part participles defined for this verb:" + getVerb());
+        throw new UnsupportedOperationException("No past participles defined for this verb:" + getVerb());
     }
 
     @Override

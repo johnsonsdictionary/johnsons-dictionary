@@ -8,6 +8,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>language-core</module>
+        <module>omitted-preterites-and-participles</module>
         <module>dictionary-core</module>
         <module>adverbs-not-mapped-from-adjectives-or-verbs</module>
         <module>adjective-adverb-mappings</module>
@@ -24,7 +25,6 @@
         <module>dictionary-words</module>
         <module>verbs</module>
 	<module>preterites-and-participles-without-verbs</module>
-	<module>omitted-preterites-and-participles</module>
         <module>unclassified-words</module>
 	<module>obsolete-words</module>
     </modules>

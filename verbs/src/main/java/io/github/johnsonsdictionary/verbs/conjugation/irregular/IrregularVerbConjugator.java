@@ -63,9 +63,9 @@ public class IrregularVerbConjugator implements VerbConjugator<VerbConjugation> 
                 return new ShallModalVerbConjugation();
             } else if (verbDefinition.getWordDefinitionId().equals(SpecialCaseVerbConjugations.OUGHT_MODAL_VERB_DEFINTION.getWordDefinitionId())) {
                 return new OughtModalVerbConjugation();
-            }  else if (verbDefinition.getWordDefinitionId().equals(SpecialCaseVerbConjugations.QUOTH_VERB_DEFINTION.getWordDefinitionId())) {
+            } else if (verbDefinition.getWordDefinitionId().equals(SpecialCaseVerbConjugations.QUOTH_VERB_DEFINTION.getWordDefinitionId())) {
                 return new QuothModalVerbConjugation();
-            }  else if (verbDefinition.getWordDefinitionId().equals(SpecialCaseVerbConjugations.METHINKS_VERB_DEFINTION.getWordDefinitionId())) {
+            } else if (verbDefinition.getWordDefinitionId().equals(SpecialCaseVerbConjugations.METHINKS_VERB_DEFINTION.getWordDefinitionId())) {
                 return new MethinksVerbConjugation();
             } else if (verbDefinition.getWordDefinitionId().equals(SpecialCaseVerbConjugations.CAN_MODAL_VERB_DEFINTION.getWordDefinitionId())) {
                 return new CanModalVerbConjugation();

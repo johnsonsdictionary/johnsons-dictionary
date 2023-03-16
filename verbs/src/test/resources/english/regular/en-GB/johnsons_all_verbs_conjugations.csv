@@ -1815,6 +1815,7 @@ disthronize,past_tense=disthronized,present_participle=disthronizing
 distil,past_tense=distilled,present_participle=distilling
 distinguish,past_tense=distinguished,present_participle=distinguishing
 distort,past_tense=distorted,present_participle=distorting
+distract,past_tense=distracted,present_participle=distracting
 distrain,past_tense=distrained,present_participle=distraining
 distress,past_tense=distressed,present_participle=distressing
 distribute,past_tense=distributed,present_participle=distributing
@@ -2288,6 +2289,7 @@ extirp,past_tense=extirped,present_participle=extirping
 extirpate,past_tense=extirpated,present_participle=extirpating
 extol,past_tense=extolled,present_participle=extolling
 extort,past_tense=extorted,present_participle=extorting
+extract,past_tense=extracted,present_participle=extracting
 extravagate,past_tense=extravagated,present_participle=extravagating
 extricate,past_tense=extricated,present_participle=extricating
 extruct,past_tense=extructed,present_participle=extructing
@@ -3285,6 +3287,7 @@ knap,past_tense=knapped,present_participle=knapping
 knapple,past_tense=knappled,present_participle=knappling
 knead,past_tense=kneaded,present_participle=kneading
 knee,past_tense=kneed,present_participle=kneeing
+kneel,past_tense=kneeled,past_participle=kneeled,present_participle=kneeling
 knight,past_tense=knighted,present_participle=knighting
 knit,past_tense=knitted,present_participle=knitting
 knock,past_tense=knocked,present_participle=knocking
@@ -4361,6 +4364,7 @@ protest,past_tense=protested,present_participle=protesting
 protract,past_tense=protracted,present_participle=protracting
 protrude,past_tense=protruded,present_participle=protruding
 protuberate,past_tense=protuberated,present_participle=protuberating
+prove,past_tense=proved,past_participle=proved,present_participle=proving
 proverb,past_tense=proverbed,present_participle=proverbing
 provide,past_tense=provided,present_participle=providing
 provinciate,past_tense=provinciated,present_participle=provinciating

@@ -1,6 +1,6 @@
 absorb,past_tense=absorbed,past_participle=absorbed,past_participle=absorpt,present_participle=absorbing
 arise,past_tense=arose,past_participle=arisen,present_participle=arising
-awake,past_tense=awoke,past_participle=awoken,present_participle=awaking
+awake,past_tense=awoke,past_tense=awaked,past_participle=awaked,present_participle=awaking
 bake,past_tense=baked,past_participle=baked,past_participle=baken,present_participle=baking
 bear,past_tense=bore,past_tense=bear,past_participle=bore,past_participle=borne,past_participle=born,present_participle=bearing
 beat,past_tense=beat,past_participle=beaten,present_participle=beating
@@ -13,7 +13,6 @@ bereave,past_tense=bereaved,past_tense=bereft,past_participle=bereaved,past_part
 bid,past_tense=bid,past_tense=bad,past_tense=bade,past_participle=bid,past_participle=bidden,present_participle=bidding
 bite,past_tense=bit,past_participle=bitten,present_participle=biting
 blow,past_tense=blew,past_participle=blown,present_participle=blowing
-blow,,past_participle=blowed,present_participle=blowing
 break,past_tense=broke,past_tense=brake,past_participle=broke,past_participle=broken,present_participle=breaking
 browbeat,past_tense=browbeat,past_participle=browbeaten,present_participle=browbeating
 burn,past_tense=burned,past_tense=burnt,past_participle=burned,past_participle=burnt,present_participle=burning
@@ -27,7 +26,6 @@ clothe,past_tense=clothed,past_tense=cloth,past_participle=clothed,past_particip
 come,past_tense=came,past_participle=come,present_participle=coming
 crow,past_tense=crew,past_tense=crowed,past_participle=crowed,present_participle=crowing
 dare,past_tense=durst,past_participle=dared,present_participle=daring
-distract,past_tense=distracted,past_participle=distraught,present_participle=distracting
 dive,past_tense=dived,past_tense=dove,past_participle=dived,past_participle=dove,present_participle=diving
 do,past_tense=did,past_participle=done,present_participle=doing
 draw,past_tense=drew,past_participle=drawn,present_participle=drawing
@@ -37,14 +35,13 @@ dress,past_tense=dressed,past_tense=drest,past_participle=dressed,past_participl
 drink,past_tense=drank,past_participle=drunk,present_participle=drinking
 drive,past_tense=drove,past_tense=drave,past_participle=driven,past_participle=drove,past_participle=droven,present_participle=driving
 eat,past_tense=ate,past_tense=eat,past_participle=eat,past_participle=eaten,present_participle=eating
-extract,past_tense=extracted,past_participle=extraught,present_participle=extracting
-fall,past_tense=fell,past_participle=fallen,present_participle=falling
+fall,past_tense=fell,past_participle=fallen,past_participle=faln,present_participle=falling
 fight,past_tense=fought,past_participle=fought,past_participle=foughten,present_participle=fighting
 fleet,past_tense=fleeted,past_participle=flet,present_participle=fleeting
 fling,past_tense=flung,past_participle=flung,past_participle=flong,present_participle=flinging
 flote,past_tense=floted,past_participle=flotten,present_participle=floting
 fly,past_tense=flew,past_participle=flown,present_participle=flying
-forbear,past_tense=forbore,past_participle=forborne,present_participle=forbearing
+forbear,past_tense=forbore,past_participle=forborn,present_participle=forbearing
 forbid,past_tense=forbade,past_tense=forbad,past_participle=forbidden,present_participle=forbidding
 forego,past_tense=forewent,past_participle=foregone,present_participle=foregoing
 foresee,past_tense=foresaw,past_participle=foreseen,present_participle=foreseeing
@@ -85,12 +82,10 @@ overthrow,past_tense=overthrew,past_participle=overthrown,present_participle=ove
 partake,past_tense=partook,past_participle=partaken,present_participle=partaking
 pen,past_tense=penned,past_participle=pent,present_participle=penning
 pitch,past_tense=pitched,past_tense=pight,past_tense=empight,past_participle=pitched,past_participle=pight,past_particle=empight,past_participle=ypight,present_participle=pitching
-prove,past_tense=proved,past_tense=proven,past_participle=proved,past_participle=proven,present_participle=proving
 reach,past_tense=reached,past_tense=rought,past_tense=raught,past_participle=reached,past_participle=raught,present_participle=reaching
 read,past_tense=read,past_tense=rad,past_participle=read,present_participle=reading
 relight,past_tense=relighted,past_tense=relit,past_participle=relighted,past_participle=relit,present_participle=relighting
 retake,past_tense=retook,past_participle=retaken,present_participle=retaking
-rid,past_tense=rid,past_tense=ridded,past_participle=rid,past_participle=ridded,present_participle=ridding
 ride,past_tense=rode,past_participle=ridden,present_participle=riding
 ring,past_tense=rang,past_participle=rung,present_participle=ringing
 rise,past_tense=rose,past_participle=risen,present_participle=rising
@@ -131,7 +126,6 @@ undertake,past_tense=undertook,past_participle=undertaken,present_participle=und
 underwrite,past_tense=underwrote,past_participle=underwritten,present_participle=underwriting
 undo,past_tense=undid,past_participle=undone,present_participle=undoing
 uphold,past_tense=upheld,past_participle=upheld,past_participle=upholden,present_participle=upholding
-wake,past_tense=woke,past_tense=waked,past_participle=woken,past_participle=waked,present_participle=waking
 wear,past_tense=wore,past_participle=worn,present_participle=wearing
 weave,past_tense=wove,past_tense=weaved,past_participle=woven,past_participle=weaved,past_participle=wove,present_participle=weaving
 weep,past_tense=weeped,past_tense=wept,past_participle=weeped,past_participle=wept,present_participle=weeping

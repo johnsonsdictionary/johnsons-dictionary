@@ -29,9 +29,14 @@ import java.util.TreeMap;
 public class OmittedPreteritesAndParticiples {
 
 
-    private final static String OMITTED_PRETERITES_AND_PARTICIPLES_FILE_PATH = "/omittedpreteritesandparticiples/omitted_preterites_and_participles.csv";
+    private final static String REFERENCED_OMITTED_PRETERITES_AND_PARTICIPLES_FOR_IRREGULAR_VERBS_FILE_PATH = "/omittedpreteritesandparticiples/referenced_omitted_preterites_and_participles_for_irregular_verbs.csv";
 
-    public final static SortedMap<WordDefinitionId, WordDefinition> ALL_OMITTED_PRETERITES_AND_PARTICIPLES = new WordDefinitionCSVReader(false, OMITTED_PRETERITES_AND_PARTICIPLES_FILE_PATH).load();
+    private final static String IMPLIED_OMITTED_PRETERITES_AND_PARTICIPLES_FOR_IRREGULAR_VERBS_FILE_PATH = "/omittedpreteritesandparticiples/implied_omitted_preterites_and_participles_for_irregular_verbs.csv";
+
+
+    public final static SortedMap<WordDefinitionId, WordDefinition> ALL_OMITTED_PRETERITES_AND_PARTICIPLES = new WordDefinitionCSVReader(false,
+            REFERENCED_OMITTED_PRETERITES_AND_PARTICIPLES_FOR_IRREGULAR_VERBS_FILE_PATH,
+            IMPLIED_OMITTED_PRETERITES_AND_PARTICIPLES_FOR_IRREGULAR_VERBS_FILE_PATH).load();
 
     public final static SortedMap<WordDefinitionId, WordDefinition> ALL_WORDS = new TreeMap<>();
 

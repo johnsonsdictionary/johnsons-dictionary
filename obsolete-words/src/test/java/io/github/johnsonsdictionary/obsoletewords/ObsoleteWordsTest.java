@@ -7,6 +7,6 @@ public class ObsoleteWordsTest {
 
     @Test
     public void testObsoleteWordsLoad() {
-        Assertions.assertEquals(4, ObsoleteWords.ALL_OBSOLETE_WORDS.keySet().size());
+        Assertions.assertEquals(6, ObsoleteWords.ALL_OBSOLETE_WORDS.keySet().size());
     }
 }

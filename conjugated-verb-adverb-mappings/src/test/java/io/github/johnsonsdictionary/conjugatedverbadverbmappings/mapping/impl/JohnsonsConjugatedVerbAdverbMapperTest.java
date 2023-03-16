@@ -3,14 +3,9 @@ package io.github.johnsonsdictionary.conjugatedverbadverbmappings.mapping.impl;
 import io.github.johnsonsdictionary.conjugatedverbadverbmappings.ConjugatedVerbAdverbMappings;
 import io.github.johnsonsdictionary.conjugatedverbadverbmappings.mapping.ConjugatedVerbAdverbMappers;
 import io.github.johnsonsdictionary.conjugatedverbadverbmappings.mapping.impl.base.ConjugatedVerbAdverbMapperTestBase;
-import io.github.johnsonsdictionary.dictionary.core.util.JohnsonsDictionaryWordDefinitionCSVReader;
-import io.github.johnsonsdictionary.dictionary.core.words.JohnsonsDictionaryWordDefinition;
-import io.github.johnsonsdictionary.dictionary.core.words.JohnsonsDictionaryWordDefinitionId;
 import io.github.johnsonsdictionary.dictionary.core.words.WordType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import java.util.SortedMap;
 
 import static io.github.johnsonsdictionary.dictionary.core.JohnsonsDictionary.DICTIONARY;
 

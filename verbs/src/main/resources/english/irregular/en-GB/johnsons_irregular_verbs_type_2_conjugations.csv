@@ -29,7 +29,6 @@ hit,past_tense=hit,past_participle=hit,present_participle=hitting
 hold,past_tense=held,past_participle=held,present_participle=holding
 hurt,past_tense=hurt,past_participle=hurt,present_participle=hurting
 keep,past_tense=kept,past_participle=kept,present_participle=keeping
-kneel,past_tense=knelt,past_participle=knelt,present_participle=kneeling
 lay,past_tense=laid,past_participle=laid,present_participle=laying
 lead,past_tense=led,past_participle=led,present_participle=leading
 lend,past_tense=lent,past_participle=lent,present_participle=lending
@@ -44,11 +43,11 @@ misunderstand,past_tense=misunderstood,past_participle=misunderstood,present_par
 overshoot,past_tense=overshot,past_participle=overshot,present_participle=overshooting
 oversleep,past_tense=overslept,past_participle=overslept,present_participle=oversleeping
 pay,past_tense=paid,past_participle=paid,present_participle=paying
-pay,past_tense=payed,past_participle=payed,present_participle=paying
 reave,past_tense=reft,past_participle=reft,present_participle=reaving
 rebuild,past_tense=rebuilt,past_participle=rebuilt,present_participle=rebuilding
 remake,past_tense=remade,past_participle=remade,present_participle=remaking
 repay,past_tense=repaid,past_participle=repaid,present_participle=repaying
+rid,past_tense=rid,past_participle=rid,present_participle=ridding
 say,past_tense=said,past_participle=said,past_participle=sain,present_participle=saying
 seek,past_tense=sought,past_participle=sought,present_participle=seeking
 sell,past_tense=sold,past_participle=sold,present_participle=selling
@@ -77,6 +76,7 @@ think,past_tense=thought,past_participle=thought,present_participle=thinking
 undersell,past_tense=undersold,past_participle=undersold,present_participle=underselling
 understand,past_tense=understood,past_participle=understood,present_participle=understanding
 unwind,past_tense=unwound,past_participle=unwound,present_participle=unwinding
+wake,past_tense=waked,past_participle=waked,present_participle=waking
 wind,past_tense=wound,past_participle=wound,present_participle=winding
 withstand,past_tense=withstood,past_participle=withstood,present_participle=withstanding
 wring,past_tense=wrung,past_participle=wrung,present_participle=wringing

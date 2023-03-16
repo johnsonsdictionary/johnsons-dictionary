@@ -58,7 +58,7 @@ public class ToBeVerbConjugation extends VerbConjugationBaseParent implements Ve
             return "are";
         } else if (SubjectType.SECOND_PERSON_SINGULAR.equals(subjectType)) {
             return "are";
-        }else if (SubjectType.SECOND_PERSON_PLURAL.equals(subjectType)) {
+        } else if (SubjectType.SECOND_PERSON_PLURAL.equals(subjectType)) {
             return "are";
         } else if (SubjectType.THIRD_PERSON_SINGULAR.equals(subjectType)) {
             return "is";

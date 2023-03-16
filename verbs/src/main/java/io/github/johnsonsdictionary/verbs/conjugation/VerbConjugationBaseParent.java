@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public abstract class VerbConjugationBaseParent implements VerbConjugation{
+public abstract class VerbConjugationBaseParent implements VerbConjugation {
 
 
     @Override
@@ -28,7 +28,7 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
     public List<String> conjugateVerb(SubjectType subjectType, Tense tense, boolean verbOnly) {
         if (Tense.PRESENT_SIMPLE.equals(tense)) {
             return Arrays.asList(getPresentTense(subjectType));
-        } else if (Tense.PRESENT_PERFECT.equals(tense)){
+        } else if (Tense.PRESENT_PERFECT.equals(tense)) {
             if (!verbOnly) {
                 List<String> haveConjugations = SpecialCaseVerbConjugations.TO_HAVE_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true);
                 if (haveConjugations.size() != 1) {
@@ -39,7 +39,7 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                 }
             }
             return getPastParticiples();
-        } else if (Tense.PRESENT_PERFECT_CONTINUOUS.equals(tense)){
+        } else if (Tense.PRESENT_PERFECT_CONTINUOUS.equals(tense)) {
             if (!verbOnly) {
                 List<String> haveConjugations = SpecialCaseVerbConjugations.TO_HAVE_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true);
                 if (haveConjugations.size() != 1) {
@@ -55,7 +55,7 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                 }
             }
             return getPastParticiples();
-        }else if (Tense.PRESENT_CONTINUOUS.equals(tense)){
+        } else if (Tense.PRESENT_CONTINUOUS.equals(tense)) {
             if (!verbOnly) {
                 List<String> beConjugations = SpecialCaseVerbConjugations.TO_BE_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true);
                 if (beConjugations.size() != 1) {
@@ -66,15 +66,15 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                 }
             }
             return getPastParticiples();
-        } else   if (Tense.FUTURE_SIMPLE.equals(tense)) {
+        } else if (Tense.FUTURE_SIMPLE.equals(tense)) {
             return Arrays.asList(SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0) + " " + getVerb());
-        } else if (Tense.FUTURE_PERFECT.equals(tense)){
+        } else if (Tense.FUTURE_PERFECT.equals(tense)) {
             if (!verbOnly) {
                 String haveInfinitive = SpecialCaseVerbConjugations.TO_HAVE_VERB_CONJUGATION.getVerb();
-                return getPastParticiples().stream().map(w -> SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0)  + " " + haveInfinitive + " " + w).collect(Collectors.toList());
+                return getPastParticiples().stream().map(w -> SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0) + " " + haveInfinitive + " " + w).collect(Collectors.toList());
             }
             return getPastParticiples();
-        } else if (Tense.FUTURE_PERFECT_CONTINUOUS.equals(tense)){
+        } else if (Tense.FUTURE_PERFECT_CONTINUOUS.equals(tense)) {
             if (!verbOnly) {
                 List<String> haveConjugations = SpecialCaseVerbConjugations.TO_HAVE_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true);
                 if (haveConjugations.size() != 1) {
@@ -85,20 +85,20 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                     if (bePastParticiples.size() != 1) {
                         throw new UnsupportedOperationException("Must be exactly one past participle of to be for this subject type and tense");
                     } else {
-                        return getPresentParticiples().stream().map(w -> SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0)  + " " + haveConjugation + " " + bePastParticiples.get(0) + " " + w).collect(Collectors.toList());
+                        return getPresentParticiples().stream().map(w -> SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0) + " " + haveConjugation + " " + bePastParticiples.get(0) + " " + w).collect(Collectors.toList());
                     }
                 }
             }
             return getPastParticiples();
-        }else if (Tense.FUTURE_CONTINUOUS.equals(tense)){
+        } else if (Tense.FUTURE_CONTINUOUS.equals(tense)) {
             if (!verbOnly) {
                 String beInfinitive = SpecialCaseVerbConjugations.TO_BE_VERB_CONJUGATION.getVerb();
-                return getPresentParticiples().stream().map(w -> SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0)  + " " + beInfinitive + " " + w).collect(Collectors.toList());
+                return getPresentParticiples().stream().map(w -> SpecialCaseVerbConjugations.WILL_MODEL_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PRESENT_SIMPLE, true).get(0) + " " + beInfinitive + " " + w).collect(Collectors.toList());
             }
             return getPastParticiples();
-        } else if (Tense.PAST_SIMPLE.equals(tense)){
+        } else if (Tense.PAST_SIMPLE.equals(tense)) {
             return getPastTenses(subjectType);
-        } else if (Tense.PAST_PERFECT.equals(tense)){
+        } else if (Tense.PAST_PERFECT.equals(tense)) {
             if (!verbOnly) {
                 List<String> haveConjugations = SpecialCaseVerbConjugations.TO_HAVE_VERB_CONJUGATION.conjugateVerb(subjectType, tense, true);
                 if (haveConjugations.size() != 1) {
@@ -109,7 +109,7 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                 }
             }
             return getPastParticiples();
-        } else if (Tense.PAST_PERFECT_CONTINUOUS.equals(tense)){
+        } else if (Tense.PAST_PERFECT_CONTINUOUS.equals(tense)) {
             if (!verbOnly) {
                 List<String> haveConjugations = SpecialCaseVerbConjugations.TO_HAVE_VERB_CONJUGATION.conjugateVerb(subjectType, tense, true);
                 if (haveConjugations.size() != 1) {
@@ -125,7 +125,7 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                 }
             }
             return getPastParticiples();
-        } else if (Tense.PAST_CONTINUOUS.equals(tense)){
+        } else if (Tense.PAST_CONTINUOUS.equals(tense)) {
             if (!verbOnly) {
                 List<String> beConjugations = SpecialCaseVerbConjugations.TO_BE_VERB_CONJUGATION.conjugateVerb(subjectType, Tense.PAST_SIMPLE, true);
                 if (beConjugations.size() != 1) {
@@ -136,7 +136,7 @@ public abstract class VerbConjugationBaseParent implements VerbConjugation{
                 }
             }
             return getPastParticiples();
-        }else {
+        } else {
             throw new UnsupportedOperationException("Not yet implemented");
         }
     }

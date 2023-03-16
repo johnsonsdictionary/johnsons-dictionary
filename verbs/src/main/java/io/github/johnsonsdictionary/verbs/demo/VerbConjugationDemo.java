@@ -5,6 +5,7 @@ import io.github.johnsonsdictionary.verbs.conjugation.VerbConjugators;
 import io.github.johnsonsdictionary.verbs.EnglishWordsEnGB;
 import io.github.johnsonsdictionary.verbs.conjugation.VerbConjugation;
 import io.github.johnsonsdictionary.verbs.conjugation.subjects.SubjectType;
+import io.github.johnsonsdictionary.verbs.tenses.Tense;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,8 +32,20 @@ public class VerbConjugationDemo {
             VerbConjugation iRegularVerbConjugation = VerbConjugators.IRREGULAR_VERB_CONJUGATOR.getConjugatedVerb(wd);
             verbRelatedWords.add(wd.getWord());
             if (!iRegularVerbConjugation.isModelVerb()) {
-                verbRelatedWords.addAll(iRegularVerbConjugation.getPresentParticiples());
-                verbRelatedWords.addAll(iRegularVerbConjugation.getPastParticiples());
+                if (iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_CONTINUOUS) ||
+                        iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PAST_PERFECT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PAST_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.FUTURE_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT_CONTINUOUS)) {
+                    verbRelatedWords.addAll(iRegularVerbConjugation.getPresentParticiples());
+                }
+                if (iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.FUTURE_PERFECT)) {
+                    verbRelatedWords.addAll(iRegularVerbConjugation.getPastParticiples());
+                }
             }
             for (SubjectType subjectType : iRegularVerbConjugation.getSupportedSubjectTypes()) {
                 verbRelatedWords.addAll(iRegularVerbConjugation.getPastTenses(subjectType));
