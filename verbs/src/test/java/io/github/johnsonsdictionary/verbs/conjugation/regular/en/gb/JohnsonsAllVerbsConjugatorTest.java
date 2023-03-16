@@ -8,7 +8,7 @@ public class JohnsonsAllVerbsConjugatorTest extends RegularVerbConjugatorTestBas
 
     @Test
     public void testRegularVerbConjugation() {
-        testVerbConjugation(EnglishWordsEnGB.JOHNSONS_ALL_VERBS, EXPECTED_CONJUGATED_JOHNSONS_ALL_VERBS_FILE_PATH);
+        testVerbConjugation(EnglishWordsEnGB.JOHNSONS_REGULAR_VERBS, EXPECTED_CONJUGATED_JOHNSONS_ALL_VERBS_FILE_PATH);
     }
 
 }

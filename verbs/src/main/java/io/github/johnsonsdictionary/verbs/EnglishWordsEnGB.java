@@ -27,7 +27,7 @@ import java.util.TreeMap;
  */
 public class EnglishWordsEnGB {
 
-    private final static String JOHNSONS_ALL_VERBS_DEFINITION_FILE_PATH = "/english/regular/en-GB/johnsons_all_verbs.csv";
+    private final static String JOHNSONS_REGULAR_VERBS_DEFINITION_FILE_PATH = "/english/regular/en-GB/johnsons_regular_verbs.csv";
     private final static String JOHNSONS_IRREGULAR_VERBS_TYPE_1_DEFINITION_FILE_PATH = "/english/irregular/en-GB/johnsons_irregular_verbs_type_1.csv";
     private final static String JOHNSONS_IRREGULAR_VERBS_TYPE_2_DEFINITION_FILE_PATH = "/english/irregular/en-GB/johnsons_irregular_verbs_type_2.csv";
     private final static String JOHNSONS_IRREGULAR_VERBS_TYPE_3_DEFINITION_FILE_PATH = "/english/irregular/en-GB/johnsons_irregular_verbs_type_3.csv";
@@ -42,17 +42,17 @@ public class EnglishWordsEnGB {
 
     public final static SortedMap<WordDefinitionId, WordDefinition> MISC_WORDS = new WordDefinitionCSVReader(false, MISC_WORDS_FILE_PATH).load();
 
-    public final static SortedMap<WordDefinitionId, WordDefinition> JOHNSONS_ALL_VERBS = new WordDefinitionCSVReader(false, JOHNSONS_ALL_VERBS_DEFINITION_FILE_PATH).load();
+    public final static SortedMap<WordDefinitionId, WordDefinition> JOHNSONS_REGULAR_VERBS = new WordDefinitionCSVReader(false, JOHNSONS_REGULAR_VERBS_DEFINITION_FILE_PATH).load();
 
     public final static SortedMap<WordDefinitionId, WordDefinition> JOHNSONS_IRREGULAR_VERBS = new WordDefinitionCSVReader(false, JOHNSONS_IRREGULAR_VERBS_TYPE_1_DEFINITION_FILE_PATH, JOHNSONS_IRREGULAR_VERBS_TYPE_2_DEFINITION_FILE_PATH, JOHNSONS_IRREGULAR_VERBS_TYPE_3_DEFINITION_FILE_PATH, JOHNSONS_IRREGULAR_VERBS_TYPE_4_DEFINITION_FILE_PATH).load();
 
     public final static SortedMap<WordDefinitionId, WordDefinition> ALL_REGULAR_VERBS = new WordDefinitionCSVReader(false,
-            JOHNSONS_ALL_VERBS_DEFINITION_FILE_PATH
+            JOHNSONS_REGULAR_VERBS_DEFINITION_FILE_PATH
     ).load();
 
 
     public final static SortedMap<WordDefinitionId, WordDefinition> ALL_VERBS = new WordDefinitionCSVReader(false,
-            JOHNSONS_ALL_VERBS_DEFINITION_FILE_PATH,
+            JOHNSONS_REGULAR_VERBS_DEFINITION_FILE_PATH,
             JOHNSONS_IRREGULAR_VERBS_TYPE_1_DEFINITION_FILE_PATH,
             JOHNSONS_IRREGULAR_VERBS_TYPE_2_DEFINITION_FILE_PATH,
             JOHNSONS_IRREGULAR_VERBS_TYPE_3_DEFINITION_FILE_PATH,
