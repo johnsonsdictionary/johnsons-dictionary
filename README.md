@@ -41,3 +41,4 @@ When we compare this list (including omissions) with the set of words from the d
 
 * There are over 900 entries which do not have part-of-speech assigned to them in the dictionary - these are tagged with the WordTypeIndicator of UNDEFINED in this project -
 an example of one of these words being "forlore".  These need to be manually assigned to parts of speech categories.
+[See full dictionary listing here](https://github.com/johnsonsdictionary/johnsons-dictionary/blob/main/dictionary-core/src/main/resources/dictionary.csv)
