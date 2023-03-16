@@ -34,3 +34,9 @@ When we compare this list (including omissions) with the set of words from the d
 * Why are there some entries in the dictionary ( **"owing"** and **"vowed"**) not appearing in the search at johnsonsdictionaryonline.com, but are listed on the browse by letter page?
 * Why do the following **regular** verb conjugations have their own entries:  **"dying"**, **"lying"** and **"passed"**.
 * Why don’t the preterites/past-participles for the **irregular** verbs that are listed in the omitted-preterites-and-participles project have their own entries ?
+* What should the parts-of-speech categories be for the over 900 entries which don't have parts of speech assigned (see TODO mehow) ?
+
+## TODO:
+
+* There are over 900 entries which do not have part-of-speech assigned to them in the dictionary - these are tagged with the WordTypeIndicator of UNDEFINED in this project -
+  an example of one of these words being "forlore".  These need to be manually assigned to parts of speech categories.
