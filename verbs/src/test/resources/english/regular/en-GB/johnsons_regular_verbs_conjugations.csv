@@ -2,7 +2,6 @@ Judaize,past_tense=Judaized,present_participle=Judaizing
 abalienate,past_tense=abalienated,present_participle=abalienating
 aband,past_tense=abanded,present_participle=abanding
 abandon,past_tense=abandoned,present_participle=abandoning
-abandon over,past_tense=abandon overed,present_participle=abandon overing
 abare,past_tense=abared,present_participle=abaring
 abase,past_tense=abased,present_participle=abasing
 abash,past_tense=abashed,present_participle=abashing
@@ -440,9 +439,6 @@ battle,past_tense=battled,present_participle=battling
 bawd,past_tense=bawded,present_participle=bawding
 bawl,past_tense=bawled,present_participle=bawling
 bay,past_tense=bayed,present_participle=baying
-be born,past_tense=be borned,present_participle=be borning
-be versed,past_tense=be verseded,present_participle=be verseding
-be wont,past_tense=be wonted,present_participle=be wonting
 beal,past_tense=bealed,present_participle=bealing
 beam,past_tense=beamed,present_participle=beaming
 beard,past_tense=bearded,present_participle=bearding
@@ -480,7 +476,7 @@ befoul,past_tense=befouled,present_participle=befouling
 befriend,past_tense=befriended,present_participle=befriending
 befringe,past_tense=befringed,present_participle=befringing
 beg,past_tense=begged,present_participle=begging
-beggar,past_tense=beggarred,present_participle=beggarring
+beggar,past_tense=beggared,present_participle=beggaring
 begird,past_tense=begirded,present_participle=begirding
 begirt,past_tense=begirted,present_participle=begirting
 begnaw,past_tense=begnawed,present_participle=begnawing
@@ -700,7 +696,6 @@ bridle,past_tense=bridled,present_participle=bridling
 bright,past_tense=brighted,present_participle=brighting
 brighten,past_tense=brightened,present_participle=brightening
 brim,past_tense=brimmed,present_participle=brimming
-brisk up,past_tense=brisk uped,present_participle=brisk uping
 bristle,past_tense=bristled,present_participle=bristling
 brite,past_tense=brited,present_participle=briting
 broach,past_tense=broached,present_participle=broaching
@@ -745,7 +740,7 @@ burlesque,past_tense=burlesqued,present_participle=burlesquing
 burnish,past_tense=burnished,present_participle=burnishing
 burrow,past_tense=burrowed,present_participle=burrowing
 burst,past_tense=bursted,present_participle=bursting
-burthen,past_tense=burthenned,present_participle=burthenning
+burthen,past_tense=burthened,present_participle=burthening
 bury,past_tense=buried,present_participle=burying
 bush,past_tense=bushed,present_participle=bushing
 buss,past_tense=bussed,present_participle=bussing
@@ -1255,7 +1250,7 @@ corrugate,past_tense=corrugated,present_participle=corrugating
 corrupt,past_tense=corrupted,present_participle=corrupting
 cost,past_tense=costed,present_participle=costing
 cote,past_tense=coted,present_participle=coting
-cotton,past_tense=cottonned,present_participle=cottonning
+cotton,past_tense=cottoned,present_participle=cottoning
 couch,past_tense=couched,present_participle=couching
 cough,past_tense=coughed,present_participle=coughing
 counsel,past_tense=counselled,present_participle=counselling
@@ -1273,7 +1268,7 @@ countermand,past_tense=countermanded,present_participle=countermanding
 countermarch,past_tense=countermarched,present_participle=countermarching
 countermark,past_tense=countermarked,present_participle=countermarking
 countermine,past_tense=countermined,present_participle=countermining
-counterplot,past_tense=counterploted,present_participle=counterploting
+counterplot,past_tense=counterplotted,present_participle=counterplotting
 counterpoise,past_tense=counterpoised,present_participle=counterpoising
 counterprove,past_tense=counterproved,present_participle=counterproving
 counterrol,past_tense=counterroled,present_participle=counterroling
@@ -1345,9 +1340,6 @@ crush,past_tense=crushed,present_participle=crushing
 crust,past_tense=crusted,present_participle=crusting
 crutch,past_tense=crutched,present_participle=crutching
 cry,past_tense=cried,present_participle=crying
-cry down,past_tense=cry downed,present_participle=cry downing
-cry out,past_tense=cry outed,present_participle=cry outing
-cry up,past_tense=cry uped,present_participle=cry uping
 crystallize,past_tense=crystallized,present_participle=crystallizing
 cub,past_tense=cubed,present_participle=cubing
 cuckold,past_tense=cuckolded,present_participle=cuckolding
@@ -1389,7 +1381,6 @@ damn,past_tense=damned,present_participle=damning
 damnify,past_tense=damnified,present_participle=damnifying
 damp,past_tense=damped,present_participle=damping
 dance,past_tense=danced,present_participle=dancing
-dance attendance,past_tense=dance attendanced,present_participle=dance attendancing
 dandle,past_tense=dandled,present_participle=dandling
 danger,past_tense=dangered,present_participle=dangering
 dangle,past_tense=dangled,present_participle=dangling
@@ -1491,8 +1482,6 @@ delineate,past_tense=delineated,present_participle=delineating
 deliquate,past_tense=deliquated,present_participle=deliquating
 delirate,past_tense=delirated,present_participle=delirating
 deliver,past_tense=delivered,present_participle=delivering
-deliver over,past_tense=deliver overed,present_participle=deliver overing
-deliver up,past_tense=deliver uped,present_participle=deliver uping
 delude,past_tense=deluded,present_participle=deluding
 deluge,past_tense=deluged,present_participle=deluging
 delve,past_tense=delved,present_participle=delving
@@ -1606,7 +1595,7 @@ dialogue,past_tense=dialogued,present_participle=dialoguing
 diaper,past_tense=diapered,present_participle=diapering
 dice,past_tense=diced,present_participle=dicing
 dictate,past_tense=dictated,present_participle=dictating
-didder,past_tense=didderred,present_participle=didderring
+didder,past_tense=diddered,present_participle=diddering
 die,past_tense=died,present_participle=dying
 diet,past_tense=dieted,present_participle=dieting
 differ,past_tense=differed,present_participle=differing
@@ -1614,7 +1603,6 @@ difference,past_tense=differenced,present_participle=differencing
 diffide,past_tense=diffided,present_participle=diffiding
 diffind,past_tense=diffinded,present_participle=diffinding
 diffuse,past_tense=diffused,present_participle=diffusing
-dig up,past_tense=dig uped,present_participle=dig uping
 digest,past_tense=digested,present_participle=digesting
 dight,past_tense=dighted,present_participle=dighting
 dignify,past_tense=dignified,present_participle=dignifying
@@ -2331,7 +2319,7 @@ farm,past_tense=farmed,present_participle=farming
 farrier,past_tense=farriered,present_participle=farriering
 farrow,past_tense=farrowed,present_participle=farrowing
 fart,past_tense=farted,present_participle=farting
-farther,past_tense=fartherred,present_participle=fartherring
+farther,past_tense=farthered,present_participle=farthering
 fascinate,past_tense=fascinated,present_participle=fascinating
 fashion,past_tense=fashioned,present_participle=fashioning
 fast,past_tense=fasted,present_participle=fasting
@@ -2642,7 +2630,6 @@ girdle,past_tense=girdled,present_participle=girdling
 girn,past_tense=girned,present_participle=girning
 girt,past_tense=girted,present_participle=girting
 girth,past_tense=girthed,present_participle=girthing
-gise ground,past_tense=gise grounded,present_participle=gise grounding
 glaciate,past_tense=glaciated,present_participle=glaciating
 glad,past_tense=gladed,present_participle=glading
 gladden,past_tense=gladdenned,present_participle=gladdenning
@@ -2685,7 +2672,7 @@ gnaw,past_tense=gnawed,present_participle=gnawing
 goad,past_tense=goaded,present_participle=goading
 gobbet,past_tense=gobbetted,present_participle=gobbetting
 gobble,past_tense=gobbled,present_participle=gobbling
-god,past_tense=goded,present_participle=goding
+god,past_tense=godded,present_participle=godding
 goggle,past_tense=goggled,present_participle=goggling
 gore,past_tense=gored,present_participle=goring
 gorge,past_tense=gorged,present_participle=gorging
@@ -2753,7 +2740,7 @@ guzzle,past_tense=guzzled,present_participle=guzzling
 gybe,past_tense=gybed,present_participle=gybing
 gyve,past_tense=gyved,present_participle=gyving
 habilitate,past_tense=habilitated,present_participle=habilitating
-habit,past_tense=habitted,present_participle=habitting
+habit,past_tense=habited,present_participle=habiting
 habituate,past_tense=habituated,present_participle=habituating
 hack,past_tense=hacked,present_participle=hacking
 hackle,past_tense=hackled,present_participle=hackling
@@ -2897,7 +2884,6 @@ hurry,past_tense=hurried,present_participle=hurrying
 hurtle,past_tense=hurtled,present_participle=hurtling
 husband,past_tense=husbanded,present_participle=husbanding
 hush,past_tense=hushed,present_participle=hushing
-hush up,past_tense=hush uped,present_participle=hush uping
 husk,past_tense=husked,present_participle=husking
 hustle,past_tense=hustled,present_participle=hustling
 huswife,past_tense=huswifed,present_participle=huswifing
@@ -3302,7 +3288,7 @@ labour,past_tense=laboured,present_participle=labouring
 lace,past_tense=laced,present_participle=lacing
 lacerate,past_tense=lacerated,present_participle=lacerating
 lack,past_tense=lacked,present_participle=lacking
-lacker,past_tense=lackerred,present_participle=lackerring
+lacker,past_tense=lackered,present_participle=lackering
 lackey,past_tense=lackeyed,present_participle=lackeying
 lade,past_tense=laded,present_participle=lading
 lag,past_tense=lagged,present_participle=lagging
@@ -5042,7 +5028,6 @@ sheathe,past_tense=sheathed,present_participle=sheathing
 shed,past_tense=shedded,present_participle=shedding
 sheepbite,past_tense=sheepbited,present_participle=sheepbiting
 sheer,past_tense=sheered,present_participle=sheering
-sheer off,past_tense=sheer offed,present_participle=sheer offing
 sheet,past_tense=sheeted,present_participle=sheeting
 shell,past_tense=shelled,present_participle=shelling
 shelter,past_tense=sheltered,present_participle=sheltering
@@ -5128,7 +5113,7 @@ sleek,past_tense=sleeked,present_participle=sleeking
 sleet,past_tense=sleeted,present_participle=sleeting
 sley,past_tense=sleyed,present_participle=sleying
 slice,past_tense=sliced,present_participle=slicing
-slidder,past_tense=slidderred,present_participle=slidderring
+slidder,past_tense=sliddered,present_participle=sliddering
 slight,past_tense=slighted,present_participle=slighting
 slip,past_tense=slipped,present_participle=slipping
 slit,past_tense=slitted,present_participle=slitting
@@ -5329,7 +5314,6 @@ state,past_tense=stated,present_participle=stating
 station,past_tense=stationed,present_participle=stationing
 statue,past_tense=statued,present_participle=statuing
 stave,past_tense=staved,present_participle=staving
-stave and tail,past_tense=stave and tailed,present_participle=stave and tailing
 stay,past_tense=stayed,present_participle=staying
 stead,past_tense=steaded,present_participle=steading
 steam,past_tense=steamed,present_participle=steaming
@@ -5463,7 +5447,7 @@ sum,past_tense=summed,present_participle=summing
 summer,past_tense=summerred,present_participle=summerring
 summon,past_tense=summoned,present_participle=summoning
 sun,past_tense=sunned,present_participle=sunning
-sunder,past_tense=sunderred,present_participle=sunderring
+sunder,past_tense=sundered,present_participle=sundering
 sup,past_tense=supped,present_participle=supping
 superabound,past_tense=superabounded,present_participle=superabounding
 superadd,past_tense=superadded,present_participle=superadding
@@ -5646,7 +5630,7 @@ thwart,past_tense=thwarted,present_participle=thwarting
 tice,past_tense=ticed,present_participle=ticing
 tick,past_tense=ticked,present_participle=ticking
 tickle,past_tense=tickled,present_participle=tickling
-tidder,past_tense=tidderred,present_participle=tidderring
+tidder,past_tense=tiddered,present_participle=tiddering
 tiddle,past_tense=tiddled,present_participle=tiddling
 tide,past_tense=tided,present_participle=tiding
 tie,past_tense=tied,present_participle=tying
@@ -5678,7 +5662,7 @@ titter,past_tense=tittered,present_participle=tittering
 tittletattle,past_tense=tittletattled,present_participle=tittletattling
 toast,past_tense=toasted,present_participle=toasting
 toil,past_tense=toiled,present_participle=toiling
-token,past_tense=tokenned,present_participle=tokenning
+token,past_tense=tokened,present_participle=tokening
 tole,past_tense=toled,present_participle=toling
 tolerate,past_tense=tolerated,present_participle=tolerating
 toll,past_tense=tolled,present_participle=tolling
@@ -5871,7 +5855,7 @@ undeaf,past_tense=undeafed,present_participle=undeafing
 undeceive,past_tense=undeceived,present_participle=undeceiving
 undeck,past_tense=undecked,present_participle=undecking
 underbear,past_tense=underbeared,present_participle=underbearing
-underbid,past_tense=underbided,present_participle=underbiding
+underbid,past_tense=underbidded,present_participle=underbidding
 underdo,past_tense=underdoed,present_participle=underdoing
 underfong,past_tense=underfonged,present_participle=underfonging
 underfurnish,past_tense=underfurnished,present_participle=underfurnishing
@@ -5882,10 +5866,10 @@ undermine,past_tense=undermined,present_participle=undermining
 underpin,past_tense=underpinned,present_participle=underpinning
 underpraise,past_tense=underpraised,present_participle=underpraising
 underprize,past_tense=underprized,present_participle=underprizing
-underprop,past_tense=underproped,present_participle=underproping
+underprop,past_tense=underpropped,present_participle=underpropping
 underrate,past_tense=underrated,present_participle=underrating
 undersay,past_tense=undersayed,present_participle=undersaying
-underset,past_tense=underseted,present_participle=underseting
+underset,past_tense=undersetted,present_participle=undersetting
 undervalue,past_tense=undervalued,present_participle=undervaluing
 underwork,past_tense=underworked,present_participle=underworking
 undress,past_tense=undressed,present_participle=undressing

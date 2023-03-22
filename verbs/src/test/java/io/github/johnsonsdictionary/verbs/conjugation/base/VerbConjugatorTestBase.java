@@ -14,7 +14,14 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-public class VerbConjugatorTestBase {
+public class VerbConjugatorTestBase<C extends VerbConjugation> {
+
+
+    private VerbConjugator<C> verbConjugator;
+
+    public VerbConjugatorTestBase(VerbConjugator<C> verbConjugator) {
+        this.verbConjugator = verbConjugator;
+    }
 
 
     protected List<String> getValuesFromVariables(List<String> csvVariables, String key, boolean required) {
@@ -27,7 +34,7 @@ public class VerbConjugatorTestBase {
         }
     }
 
-    protected <C extends VerbConjugation> SortedMap<WordDefinitionId, C> getConjugatedVerbs(VerbConjugator<C> verbConjugator, SortedMap<WordDefinitionId, WordDefinition> verbDefinitions) {
+    protected SortedMap<WordDefinitionId, C> getConjugatedVerbs(VerbConjugator<C> verbConjugator, SortedMap<WordDefinitionId, WordDefinition> verbDefinitions) {
         SortedMap<WordDefinitionId, C> results = new TreeMap<>();
         for (Map.Entry<WordDefinitionId, WordDefinition> entry : verbDefinitions.entrySet()) {
             results.put(entry.getKey(), verbConjugator.getConjugatedVerb(entry.getValue()));
@@ -39,7 +46,7 @@ public class VerbConjugatorTestBase {
         Assertions.assertEquals(first, second,  "Conjugation does not match for:" + first.getVerb());
     }
 
-    protected <C extends VerbConjugation> void testVerbConjugation(VerbConjugator<C> verbConjugator, SortedMap<WordDefinitionId, ? extends C> expectedConjugatedVerbs, SortedMap<WordDefinitionId, WordDefinition> verbs) {
+    protected void testVerbConjugation(SortedMap<WordDefinitionId, ? extends C> expectedConjugatedVerbs, SortedMap<WordDefinitionId, WordDefinition> verbs) {
 
         SortedMap<WordDefinitionId, C> conjugatedVerbsStartingWithA = getConjugatedVerbs(verbConjugator, verbs);
 

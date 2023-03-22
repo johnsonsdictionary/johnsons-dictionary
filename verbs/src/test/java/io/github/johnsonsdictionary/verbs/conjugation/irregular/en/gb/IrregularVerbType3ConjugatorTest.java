@@ -17,6 +17,10 @@ import java.util.TreeMap;
 
 public class IrregularVerbType3ConjugatorTest extends IrregularVerbConjugatorTestBase {
 
+    public IrregularVerbType3ConjugatorTest() {
+        super(VerbConjugators.IRREGULAR_VERB_CONJUGATOR);
+    }
+
     @Test
     public void testIrregularVerbConjugation() {
         testVerbConjugation(EnglishWordsEnGB.JOHNSONS_IRREGULAR_VERBS_TYPE_3, EXPECTED_CONJUGATED_VERBS_TYPE_3_FILE_PATH);
@@ -25,12 +29,10 @@ public class IrregularVerbType3ConjugatorTest extends IrregularVerbConjugatorTes
     @Override
     protected void testVerbConjugation(SortedMap<WordDefinitionId, WordDefinition> verbs, String expectedResultsFilePath) {
 
-        IrregularVerbConjugator irregularVerbConjugator = VerbConjugators.IRREGULAR_VERB_CONJUGATOR;
-
         SortedMap<WordDefinitionId, ToBeVerbConjugation> expectedConjugatedVerbs = new TreeMap<>();
         expectedConjugatedVerbs.put(WordDefinitionId.create("be", 1), new ToBeVerbConjugation());
 
-        testVerbConjugation(irregularVerbConjugator, expectedConjugatedVerbs, verbs);
+        testVerbConjugation(expectedConjugatedVerbs, verbs);
     }
 
     @Override

@@ -2,7 +2,6 @@ Judaize,false,Judaize
 abalienate,false,ab,alien,ate
 aband,false,ab,and
 abandon,false,abandon
-abandon over,false,abandonover
 abare,false,ab,are
 abase,false,abase
 abash,false,abash
@@ -118,7 +117,7 @@ adopt,true,adopt
 adore,true,adore
 adorn
 adulter,false,adult,er
-adulterate,false,adult,er,ate
+adulterate,false,adulterate
 adumbrate,false,adumbrate
 adure,false,adure
 advance,true,advance
@@ -297,7 +296,7 @@ ascribe,true,ascribe
 ask,true,ask
 aslake,false,as,lake
 aspect,false,aspect
-asperate,false,asp,er,ate
+asperate,false,asperate
 asperse,false,asperse
 aspirate,false,aspirate
 aspire,true,aspire
@@ -312,7 +311,7 @@ assert,true,assert
 asserve,false,as,serve
 assess,true,assess
 assever,false,ass,ever
-asseverate,false,as,sever,ate
+asseverate,false,asseverate
 assiege,false,as,siege
 assign,true,assign
 assimilate,false,assimilate
@@ -321,7 +320,7 @@ assist,true,assist
 assize,false,as,size
 associate,false,associate
 assort,true,assort
-assot,false,as,sot
+assot,true,assot
 assuage,true,assuage
 assubjugate,false,as,subjugate
 assume,true,assume
@@ -440,9 +439,6 @@ battle
 bawd,false,bawd
 bawl
 bay
-be born,false,beborn
-be versed,false,beversed
-be wont,false,bewont
 beal,false,be,al
 beam
 beard,false,be,ard
@@ -480,7 +476,7 @@ befoul,false,be,foul
 befriend
 befringe,false,be,fringe
 beg,true,beg
-beggar,false,beg,gar
+beggar,false,beggar
 begird,false,be,gird
 begirt,false,be,girt
 begnaw,false,be,gnaw
@@ -649,7 +645,7 @@ bolt
 bomb
 bombard
 bone
-boneset,false,bo,ne,set
+boneset,true,boneset
 book
 boom
 boot
@@ -700,7 +696,6 @@ bridle
 bright,false,bright
 brighten,false,brighten
 brim,true,brim
-brisk up,false,briskup
 bristle
 brite,false,brite
 broach
@@ -745,7 +740,7 @@ burlesque,false,burlesque
 burnish
 burrow
 burst
-burthen,false,bur,then
+burthen,false,burthen
 bury
 bush,false,bush
 buss,false,buss
@@ -778,7 +773,7 @@ calve
 camp
 canary,false,canary
 cancel
-cancerate,false,can,cerate
+cancerate,false,cancerate
 candify,false,candify
 candy
 cane
@@ -788,7 +783,7 @@ canonize,false,canonize
 canopy,false,canopy
 cant,false,cant
 cantle,false,cantle
-canton,false,cant,on
+canton,false,canton
 cantonize,false,cantonize
 canvass
 cap
@@ -807,7 +802,7 @@ care
 careen
 career
 caress
-cark,false,car,k
+cark,false,cark
 carnify,false,carnify
 carol,false,carol
 carouse
@@ -900,8 +895,8 @@ chisel
 chit,false,ch,it
 choke
 chop,true,chop
-chord,false,ch,ord
-chouse,false,ch,ouse
+chord,false,chord
+chouse,false,chouse
 chowter,false,chowter
 christianize,false,christianize
 chronicle
@@ -952,7 +947,7 @@ clay,false,clay
 clean
 cleanse
 clear
-clearstarch,false,clear,star,ch
+clearstarch,false,clear,starch
 cleftgraft,false,cleft,graft
 clepe,false,clepe
 clew,false,clew
@@ -1255,31 +1250,31 @@ corrugate
 corrupt
 cost
 cote,false,cote
-cotton,false,cot,ton
+cotton,false,cotton
 couch,false,couch
 cough
 counsel
 count
 countenance,false,countenance
-counteract,false,count,er,act
+counteract,false,counter,act
 counterbalance
-counterbuff,false,count,er,buff
-counterchange,false,count,er,change
-countercharm,false,count,er,ch,arm
-countercheck,false,count,er,check
-counterdraw,false,count,er,draw
+counterbuff,false,counter,buff
+counterchange,false,counter,change
+countercharm,false,counter,charm
+countercheck,false,counter,check
+counterdraw,false,counter,draw
 counterfeit,false,counterfeit
 countermand,false,countermand
-countermarch,false,count,er,mar,ch
-countermark,false,count,er,mar,k
-countermine,false,count,er,mine
-counterplot,false,count,er,plot
+countermarch,false,counter,march
+countermark,false,counter,mark
+countermine,false,counter,mine
+counterplot,false,counter,plot
 counterpoise,false,counterpoise
-counterprove,false,count,er,prove
+counterprove,false,counter,prove
 counterrol,false,counterrol
-countersign,false,count,er,sign
-countervail,false,count,er,vail
-counterwork,false,count,er,work
+countersign,false,counter,sign
+countervail,false,counter,vail
+counterwork,false,counter,work
 couple
 courb,false,courb
 course
@@ -1323,12 +1318,12 @@ crinkle
 cripple
 crisp
 criticise
-critick,false,critic,k
+critick,false,critick
 croak
 crook,false,crook
 crop,true,crop
 cross
-cross-examine,false,cross-examine
+cross-examine,false,cross-,examine
 crossbite,false,cross,bite
 crouch
 crowd
@@ -1345,9 +1340,6 @@ crush
 crust
 crutch,false,crutch
 cry
-cry down,false,crydown
-cry out,false,cryout
-cry up,false,cryup
 crystallize,false,crystallize
 cub,false,cub
 cuckold
@@ -1389,13 +1381,12 @@ damn
 damnify,false,damnify
 damp
 dance
-dance attendance,false,danceattendance
 dandle,false,dandle
 danger,false,danger
 dangle
 dap,false,dap
 dapple
-dark,false,dar,k
+dark,false,dark
 darken,false,darken
 darn
 darrain,false,dar,rain
@@ -1406,7 +1397,7 @@ dastardise,false,dastardise
 date,true,date
 daub
 daunt
-dawk,false,daw,k
+dawk,false,dawk
 dawn
 daze,false,daze
 dazzle
@@ -1418,7 +1409,7 @@ dealbate,false,deal,bate
 dearn,false,dearn
 deaurate,false,deaurate
 debar,false,debar
-debark,false,debar,k
+debark,false,debark
 debase
 debate
 debel,false,debel
@@ -1491,8 +1482,6 @@ delineate
 deliquate,false,deliquate
 delirate,false,delirate
 deliver,false,deliver
-deliver over,false,deliverover
-deliver up,false,deliverup
 delude
 deluge
 delve
@@ -1511,14 +1500,14 @@ denizen,false,denizen
 denominate,false,den,ominate
 denote
 denounce
-denshire,false,den,shire
+denshire,false,denshire
 dentise,false,dentise
 denudate,false,denudate
 denude
 deny
 deobstruct,false,deobstruct
 deoppilate,false,deoppilate
-depaint,false,depaint
+depaint,false,de,paint
 depart
 depasture,false,depasture
 depauperate,false,depauperate
@@ -1606,7 +1595,7 @@ dialogue,false,dialogue
 diaper,false,diaper
 dice
 dictate
-didder,false,did,der
+didder,false,didder
 die
 diet
 differ,false,differ
@@ -1614,7 +1603,6 @@ difference,false,difference
 diffide,false,diffide
 diffind,false,diffind
 diffuse
-dig up,false,digup
 digest
 dight,false,dight
 dignify
@@ -1637,22 +1625,22 @@ direct
 dirke,false,dirke
 dirt,false,dirt
 dirty,false,dirty
-disable
-disabuse,false,dis,ab,use
-disaccustom,false,dis,ac,custom
-disacknowledge,false,dis,ac,k,now,ledge
-disadvantage
-disaffect
+disable,false,dis,able
+disabuse,false,dis,abuse
+disaccustom,false,dis,accustom
+disacknowledge,false,dis,acknowledge
+disadvantage,false,dis,advantage
+disaffect,false,dis,affect
 disafforest,false,dis,afforest
-disagree
-disallow
+disagree,false,dis,agree
+disallow,false,dis,allow
 disanchor,false,dis,anchor
 disanimate,false,dis,animate
 disannul,false,dis,annul
-disappear
-disappoint
-disapprove
-disarm
+disappear,false,dis,appear
+disappoint,false,dis,appoint
+disapprove,false,dis,approve
+disarm,false,dis,arm
 disarray,false,dis,array
 disaster,false,disaster
 disauthorise,false,disauthorise
@@ -1736,7 +1724,7 @@ dishorn,false,dis,horn
 disincline,false,dis,incline
 disinherit,false,dis,inherit
 disinter,false,dis,inter
-disintricate,false,dis,intricate
+disintricate,false,disintricate
 disinvite,false,dis,invite
 disjoin,false,dis,join
 disjoint
@@ -1841,7 +1829,7 @@ divorce
 divulge
 dizen,false,dizen
 dizzy
-doat,false,do,at
+doat,true,doat
 dock
 doctor,false,doctor
 dodge
@@ -1932,7 +1920,7 @@ edify
 educate
 educe,false,educe
 edulcorate,false,edulcorate
-eek,false,ee,k
+eek,false,eek
 efface
 effect
 effectuate,false,effectuate
@@ -2202,7 +2190,7 @@ exaggerate
 exagitate,false,ex,agitate
 exalt
 examine
-example,false,ex,ample
+example,false,example
 exasperate
 exauctorate,false,exauctorate
 excarnate,false,excarnate
@@ -2223,7 +2211,7 @@ excoriate
 excreate,false,ex,create
 excruciate
 exculpate
-excur,false,ex,cur
+excur,true,excur
 excuse
 excuss,false,excuss
 execrate,false,execrate
@@ -2331,7 +2319,7 @@ farm,true,farm
 farrier,false,farrier
 farrow,false,far,row
 fart
-farther,false,fart,her
+farther,false,farther
 fascinate
 fashion
 fast
@@ -2360,7 +2348,7 @@ felicitate,false,felicitate
 fell
 fellow,false,fellow
 felt,false,felt
-feltre,false,felt,re
+feltre,false,feltre
 fence
 fend
 feoff,false,feoff
@@ -2397,7 +2385,7 @@ finedraw,false,fine,draw
 finger,false,finger
 finish
 fire,true,fire
-firk,false,fir,k
+firk,false,firk
 firm
 fish
 fishify,false,fishify
@@ -2412,7 +2400,7 @@ flame
 flank
 flanker,false,flank,er
 flap
-flapdragon,false,flap,drag,on
+flapdragon,false,flap,dragon
 flare
 flash
 flat,false,flat
@@ -2423,7 +2411,7 @@ flaw,false,flaw
 flawter,false,flawter
 flay
 flea,false,flea
-fleak,false,flea,k
+fleak,false,fleak
 fleck,false,fleck
 flecker,false,fleck,er
 fledge
@@ -2518,7 +2506,7 @@ fornicate
 forswear,false,for,swear
 fortify
 fortune,false,for,tune
-fortunetell,false,for,tune,tell
+fortunetell,false,fortune,tell
 forwander,false,for,wan,der
 forward,false,for,ward
 foster,false,foster
@@ -2571,7 +2559,7 @@ fumble
 fume
 fumigate,false,fumigate
 fur,true,fur
-furbelow,false,fur,be,low
+furbelow,false,fur,below
 furbish,false,furbish
 furl
 furnace,false,furnace
@@ -2595,7 +2583,7 @@ gallop,false,gallop
 gallow,false,gallow
 gambol,false,gambol
 game
-ganch,false,gan,ch
+ganch,false,ganch
 gang
 gangrenate,false,gangrenate
 gangrene,false,gangrene
@@ -2642,7 +2630,6 @@ girdle,false,girdle
 girn,false,girn
 girt,false,girt
 girth,false,girth
-gise ground,false,giseground
 glaciate,false,glaciate
 glad,false,glad
 gladden,false,glad,den
@@ -2654,7 +2641,7 @@ glaver,false,glaver
 glaze
 gleam
 glean
-gleek,false,glee,k
+gleek,false,gleek
 gleen,false,gleen
 gleet,false,gleet
 glib,false,glib
@@ -2685,7 +2672,7 @@ gnaw
 goad
 gobbet,false,gob,bet
 gobble
-god,false,god
+god,true,god
 goggle,false,goggle
 gore
 gorge
@@ -2775,7 +2762,7 @@ hamstring,false,ham,string
 hand
 handle
 handsel,false,handsel
-handsome,false,hand,so,me
+handsome,false,hand,some
 hanker,false,hanker
 hap,false,hap
 happen,false,happen
@@ -2783,7 +2770,7 @@ harangue
 harass
 harbour
 harden,false,harden
-hare,false,ha,re
+hare,false,hare
 hark
 harm
 harmonize,false,harmonize
@@ -2855,7 +2842,7 @@ hoise,false,hoise
 hoist
 holla,false,holla
 hollow
-homage,false,ho,mage
+homage,false,homage
 hone
 honey
 honour,false,honour
@@ -2897,7 +2884,6 @@ hurry
 hurtle
 husband,false,husband
 hush
-hush up,false,hushup
 husk,false,husk
 hustle
 huswife,false,huswife
@@ -3018,7 +3004,7 @@ incrassate,false,incrassate
 increase
 increpate,false,increpate
 incrust,false,in,crust
-incrustate,false,in,crust,ate
+incrustate,false,incrustate
 incubate
 inculcate,false,inculcate
 incumber,false,in,cumber
@@ -3263,8 +3249,8 @@ keck,false,keck
 keckle,false,keckle
 kedge,false,k,edge
 keel
-keelhale,false,k,eel,hale
-keen,false,k,een
+keelhale,false,keel,hale
+keen,false,keen
 kemb,false,kemb
 ken,false,k,en
 kennel,false,kennel
@@ -3278,12 +3264,12 @@ kilndry,false,kiln,dry
 kindle
 king,false,king
 kiss
-kitten,false,k,it,ten
-klick,false,k,lick
-knab,false,k,nab
+kitten,false,kitten
+klick,false,klick
+knab,true,knab
 knabble,false,knabble
 knack,false,knack
-knap,false,k,nap
+knap,false,knap
 knapple,false,knapple
 knead
 knee
@@ -3291,10 +3277,10 @@ kneel
 knight
 knit,true,knit
 knock
-knoll,false,k,noll
+knoll,false,knoll
 knot,true,knot
-knowledge,false,k,now,ledge
-knubble,false,k,nubble
+knowledge,false,know,ledge
+knubble,false,knubble
 knuckle
 kyd,false,kyd
 labefy,false,labefy
@@ -3302,11 +3288,11 @@ labour
 lace
 lacerate
 lack
-lacker,false,lac,k,er
-lackey,false,lac,k,ey
+lacker,false,lacker
+lackey,false,lackey
 lade,false,lade
 lag,true,lag
-lame,false,la,me
+lame,false,lame
 lament
 lamm,false,lamm
 lampoon
@@ -3390,7 +3376,7 @@ litter,false,litter
 littoral,false,littoral
 live
 load
-loam,false,lo,am
+loam,true,loam
 loathe
 lob,true,lob
 lock
@@ -3398,7 +3384,7 @@ lodge
 loiter,false,loiter
 loll,false,loll
 long
-loof,false,lo,of
+loof,false,loof
 look
 loom
 loose,false,loose
@@ -3478,7 +3464,7 @@ mash
 mask
 masquerade
 mass
-massacre,false,mass,ac,re
+massacre,false,mass,acre
 master,false,master
 mat,false,mat
 match
@@ -3529,7 +3515,7 @@ milk
 mill
 milt,false,milt
 mime
-mimick,false,mimic,k
+mimick,false,mimick
 mince
 mind
 mine
@@ -3616,7 +3602,7 @@ miswend,false,mis,wend
 mitigate
 mix
 moan
-moat,false,mo,at
+moat,false,moat
 mob,true,mob
 moble,false,moble
 mock
@@ -3829,13 +3815,13 @@ outfrown,false,out,frown
 outgive,false,out,give
 outgo,false,out,go
 outjest,false,out,jest
-outknave,false,out,k,nave
+outknave,false,out,knave
 outlast,true,out,last
 outlaw,true,out,law
 outleap,false,out,leap
 outlive,true,out,live
 outlook,false,out,loo,k
-outlustre,false,out,lust,re
+outlustre,false,out,lustre
 outmarch,false,out,mar,ch
 outmeasure,false,out,measure
 outnumber,true,out,number
@@ -3981,7 +3967,7 @@ pad,true,pad
 paddle
 padlock,false,pad,lock
 page
-pageant,false,page,ant
+pageant,false,pageant
 pain
 paint
 pair
@@ -4010,7 +3996,7 @@ pardon,false,pardon
 pare
 parget,false,par,get
 park
-parley,false,par,ley
+parley,false,parley
 parody,false,parody
 parry
 parse
@@ -4112,7 +4098,7 @@ philosophize,false,philosophize
 philter,false,philter
 phlebotomize,false,phlebotomize
 phrase
-physick,false,physic,k
+physick,false,physick
 pick
 pickeer,false,pickeer
 pickle
@@ -4273,7 +4259,7 @@ preominate,false,pre,ominate
 preordain
 prepare
 preponder,false,pre,pond,er
-preponderate,false,pre,pond,er,ate
+preponderate,false,preponder,ate
 prepose,false,pre,pose
 prepossess,false,pre,possess
 prerequire,false,pre,re,quire
@@ -4310,7 +4296,7 @@ prize
 probe
 prove
 proceed
-procession,false,pro,cession
+procession,false,procession
 proclaim,true,pro,claim
 procrastinate
 procreate,false,pro,create
@@ -4348,7 +4334,7 @@ prophesy,false,prophesy
 prophetize,false,prophetize
 propitiate,false,propitiate
 proportion,false,pro,portion
-proportionate,false,pro,portion,ate
+proportionate,false,proportion,ate
 propose
 propound,false,pro,pound
 propugn,false,propugn
@@ -4587,7 +4573,7 @@ reexamine,false,re,examine
 refect,false,refect
 refel,false,refel
 refer,true,refer
-referment,false,refer,ment
+referment,false,re,ferment
 refine
 refit,false,re,fit
 reflect
@@ -4865,7 +4851,7 @@ royalize,false,royalize
 royne,false,royne
 rub,true,rub
 rubify,false,rubify
-rubrick,false,rub,ric,k
+rubrick,false,rubrick
 rud,false,rud
 rue
 ruffian,false,ruffian
@@ -5012,7 +4998,7 @@ sepulchre,false,sepulchre
 sequester,false,sequester
 sequestrate,false,sequestrate
 serenade
-serene,false,sere,ne
+serene,false,serene
 sermon,false,sermon
 serr,false,serr
 serry,false,serry
@@ -5042,7 +5028,6 @@ sheathe,false,sheathe
 shed,true,shed
 sheepbite,false,sheep,bite
 sheer
-sheer off,false,sheeroff
 sheet,false,sheet
 shell
 shelter,false,shelter
@@ -5105,7 +5090,7 @@ skewer,false,skewer
 skill
 skim,true,skim
 skin,true,skin
-skink,false,skin,k
+skink,false,skink
 skip,true,skip
 skirmish,false,skirmish
 skirre,false,skirre
@@ -5128,7 +5113,7 @@ sleek,false,sleek
 sleet
 sley,false,sley
 slice
-slidder,false,slid,der
+slidder,false,slidder
 slight
 slip,true,skip
 slit,true,slit
@@ -5319,8 +5304,8 @@ stalk
 stall
 stammer,false,stammer
 stamp
-stanch,false,stan,ch
-starch,false,star,ch
+stanch
+starch
 stare
 start
 startle
@@ -5329,7 +5314,6 @@ state
 station
 statue,false,statue
 stave
-stave and tail,false,staveandtail
 stay
 stead,false,stead
 steam
@@ -5463,23 +5447,23 @@ sum,true,sum
 summer,false,sum,mer
 summon,false,summon
 sun,true,sun
-sunder,false,sun,der
+sunder,false,sunder
 sup,true,sup
-superabound,false,sup,er,abound
-superadd,false,sup,er,add
+superabound,false,super,abound
+superadd,false,super,add
 superannuate
 supererogate,false,supererogate
 superfetate,false,superfetate
-superinduce,false,sup,er,induce
-superintend,false,sup,er,in,tend
+superinduce,false,super,induce
+superintend,false,super,intend
 superponderate,false,superponderate
-superscribe,false,sup,er,scribe
+superscribe,false,super,scribe
 supersede
-superstrain,false,sup,er,strain
+superstrain,false,super,strain
 superstruct,false,superstruct
 supervene,false,supervene
 supervise
-supervive,false,sup,er,vive
+supervive,false,super,vive
 supplant
 supple,false,supple
 supplicate,false,supplicate
@@ -5646,7 +5630,7 @@ thwart
 tice,false,tice
 tick
 tickle
-tidder,false,tid,der
+tidder,false,tidder
 tiddle,false,tiddle
 tide,false,tide
 tie
@@ -5664,7 +5648,7 @@ tind,false,tind
 tine,false,tine
 tinge
 tingle
-tink,false,tin,k
+tink,false,tink
 tinkle
 tinsel,false,tinsel
 tip,true,tip
@@ -5842,7 +5826,7 @@ unbrace,false,un,brace
 unbreathed,false,unbreathed
 unbuckle,false,un,buckle
 unbuild,false,un,build
-unburthen,false,un,bur,then
+unburthen,false,un,burthen
 unbutton,false,un,butt,on
 uncalm,false,un,calm
 uncase,false,un,case
@@ -5870,27 +5854,27 @@ undam,false,un,dam
 undeaf,false,un,deaf
 undeceive,false,un,deceive
 undeck,false,un,deck
-underbear,false,un,der,bear
-underbid,false,un,der,bid
-underdo,false,un,der,do
+underbear,false,under,bear
+underbid,false,under,bid
+underdo,false,under,do
 underfong,false,underfong
-underfurnish,false,un,der,furnish
-undergird,false,un,der,gird
-underlay,false,un,der,lay
+underfurnish,false,under,furnish
+undergird,false,under,gird
+underlay,false,under,lay
 underline,true,under,line
 undermine,true,under,mine
 underpin,true,under,pin
-underpraise,false,un,der,praise
-underprize,false,un,der,prize
-underprop,false,un,der,prop
+underpraise,false,under,praise
+underprize,false,under,prize
+underprop,false,under,prop
 underrate,true,under,rate
-undersay,false,un,der,say
-underset,false,un,der,set
+undersay,false,under,say
+underset,false,under,set
 undervalue,true,under,value
-underwork,false,un,der,work
+underwork,false,under,work
 undress,true,un,dress
 undulate
-unfasten,false,un,fast,en
+unfasten,false,un,fasten
 unfetter,false,un,fetter
 unfit,false,un,fit
 unfix,false,un,fix
@@ -5902,12 +5886,12 @@ unfurnish,false,un,furnish
 ungird,false,un,gird
 unglue,false,un,glue
 ungod,false,un,god
-unhallow,false,un,hal,low
+unhallow,false,un,hallow
 unhand,false,un,hand
 unhang,false,un,hang
 unharbour,false,un,harbour
 unharness,false,un,harness
-unheart,false,un,he,art
+unheart,false,un,heart
 unhele,false,unhele
 unhinge,true,un,hinge
 unhoop,false,un,hoop
@@ -5917,13 +5901,13 @@ unite
 unkennel,false,un,kennel
 unking,false,un,king
 unkle,false,unkle
-unknit,false,un,k,nit
-unknow,false,un,k,now
+unknit,false,un,knit
+unknow,false,un,know
 unlace,false,un,lace
 unlade,false,un,lade
 unlatch,false,un,latch
 unlearn,true,un,learn
-unlink,false,un,lin,k
+unlink,false,un,link
 unload,true,un,load
 unlock,true,un,lock
 unloose,false,un,loose
@@ -5932,7 +5916,7 @@ unmake,false,un,make
 unman,false,un,man
 unmask,true,un,mask
 unmingle,false,un,mingle
-unmoor,false,un,mo,or
+unmoor,false,un,moor
 unmould,false,un,mould
 unmuffle,false,un,muffle
 unmuzzle,false,un,muzzle
@@ -5984,7 +5968,7 @@ unsweat,false,un,sweat
 untangle,false,un,tangle
 unteach,false,un,tea,ch
 untent,false,un,tent
-unthink,false,un,thin,k
+unthink,false,un,think
 unthread,false,un,thread
 unthrone,false,un,thro,ne
 untie,false,un,tie
@@ -6152,7 +6136,7 @@ waver,false,waver
 wawl,false,wawl
 wax
 waylay,false,way,lay
-wayment,false,way,ment
+wayment,false,wayment
 weaken,false,weaken
 wean
 weary
@@ -6212,7 +6196,7 @@ wink
 winnow,false,win,now
 winter,false,winter
 wipe
-wiredraw,false,wi,re,draw
+wiredraw,false,wire,draw
 wis,false,wis
 wish
 wit,true,wit

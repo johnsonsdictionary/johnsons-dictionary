@@ -239,6 +239,7 @@ public class VerbConjugationLogic {
 
     private static String getConjugation(Map<WordDefinitionId, WordDefinition> allWords, WordDefinition wordDefinition, String doubleCandidate, String notDoubleCandidate, String addKForICOrACOrKEnding) {
         String verb = wordDefinition.getWord();
+        List<String> parts = wordDefinition.getComponents();
 
         if (verb.length() < 2) {
             //throw new IllegalStateException("Verbs must be at least two letters");
@@ -255,9 +256,12 @@ public class VerbConjugationLogic {
                 String suffixString = suffixStringIncludingDelimiter.substring(secondWordComponentIndex);
 
                 String delimiter = suffixStringIncludingDelimiter.substring(0, secondWordComponentIndex);
-
-                WordDefinition suffix = getWordDefinition(allWords, suffixString);
-                return prefix + delimiter + getConjugation(allWords, suffix, doubleCandidate.substring(prefix.length() + delimiter.length()), notDoubleCandidate.substring(prefix.length() + delimiter.length()), addKForICOrACOrKEnding.substring(prefix.length() + delimiter.length()));
+                try {
+                    WordDefinition suffix = getWordDefinition(allWords, suffixString);
+                    return prefix + delimiter + getConjugation(allWords, suffix, doubleCandidate.substring(prefix.length() + delimiter.length()), notDoubleCandidate.substring(prefix.length() + delimiter.length()), addKForICOrACOrKEnding.substring(prefix.length() + delimiter.length()));
+                } catch (IllegalStateException e) {
+                    throw new IllegalStateException("Issue conjugating:" + verb, e);
+                }
             } else {
                 throw new IllegalStateException("Invalid prefix:" + verb + ":" + prefix);
             }

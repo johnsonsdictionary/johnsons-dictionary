@@ -1,10 +1,15 @@
 package io.github.johnsonsdictionary.verbs.conjugation.regular.en.gb;
 
+import io.github.johnsonsdictionary.verbs.conjugation.VerbConjugators;
 import org.junit.jupiter.api.Test;
 import io.github.johnsonsdictionary.verbs.EnglishWordsEnGB;
 import io.github.johnsonsdictionary.verbs.conjugation.regular.base.RegularVerbConjugatorTestBase;
 
-public class JohnsonsAllVerbsConjugatorTest extends RegularVerbConjugatorTestBase {
+public class JohnsonsRegularVerbsConjugatorTest extends RegularVerbConjugatorTestBase {
+
+    public JohnsonsRegularVerbsConjugatorTest() {
+        super(VerbConjugators.REGULAR_VERB_CONJUGATOR);
+    }
 
     @Test
     public void testRegularVerbConjugation() {

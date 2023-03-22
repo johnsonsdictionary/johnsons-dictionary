@@ -87,15 +87,27 @@ public class JohnsonsDictionaryWords {
         List<String> verbs = new ArrayList<>();
         verbs.addAll(EnglishWordsEnGB.JOHNSONS_REGULAR_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
         verbs.addAll(EnglishWordsEnGB.JOHNSONS_IRREGULAR_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
+        verbs.addAll(EnglishWordsEnGB.JOHNSONS_REGULAR_MULTI_WORD_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
+        verbs.addAll(EnglishWordsEnGB.ALL_IRREGULAR_MULTI_WORD_VERBS.keySet().stream().map(w -> w.getWord()).collect(Collectors.toList()));
         verbs = verbs.stream().distinct().collect(Collectors.toList());
         Collections.sort(verbs);
         return verbs;
     }
 
-    public static List<String> getVerbsIncludingConjugations() {
+    public static List<String> getVerbsIncludingVerbConjugations() {
         List<String> verbRelatedWords = new ArrayList<>();
         for (WordDefinition wd : EnglishWordsEnGB.ALL_REGULAR_VERBS.values()) {
             VerbConjugation regularVerbConjugation = VerbConjugators.REGULAR_VERB_CONJUGATOR.getConjugatedVerb(wd);
+            verbRelatedWords.add(wd.getWord());
+            verbRelatedWords.addAll(regularVerbConjugation.getPresentParticiples());
+            for (SubjectType subjectType : regularVerbConjugation.getSupportedSubjectTypes()) {
+                verbRelatedWords.addAll(regularVerbConjugation.getPastTenses(subjectType));
+                verbRelatedWords.add(regularVerbConjugation.getPresentTense(subjectType));
+            }
+        }
+
+        for (WordDefinition wd : EnglishWordsEnGB.ALL_REGULAR_MULTI_WORD_VERBS.values()) {
+            VerbConjugation regularVerbConjugation = VerbConjugators.REGULAR_MULTI_WORD_VERB_CONJUGATOR.getConjugatedVerb(wd);
             verbRelatedWords.add(wd.getWord());
             verbRelatedWords.addAll(regularVerbConjugation.getPresentParticiples());
             for (SubjectType subjectType : regularVerbConjugation.getSupportedSubjectTypes()) {
@@ -128,6 +140,32 @@ public class JohnsonsDictionaryWords {
                 verbRelatedWords.add(iRegularVerbConjugation.getPresentTense(subjectType));
             }
         }
+
+        for (WordDefinition wd : EnglishWordsEnGB.ALL_IRREGULAR_MULTI_WORD_VERBS.values()) {
+            VerbConjugation iRegularVerbConjugation = VerbConjugators.IRREGULAR_MULTI_WORD_VERB_CONJUGATOR.getConjugatedVerb(wd);
+            verbRelatedWords.add(wd.getWord());
+            if (!iRegularVerbConjugation.isModelVerb()) {
+                if (iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_CONTINUOUS) ||
+                        iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PAST_PERFECT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PAST_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.FUTURE_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT_CONTINUOUS)) {
+                    verbRelatedWords.addAll(iRegularVerbConjugation.getPresentParticiples());
+                }
+                if (iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_PERFECT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.PRESENT_CONTINUOUS)
+                        || iRegularVerbConjugation.getSupportedTenses().contains(Tense.FUTURE_PERFECT)) {
+                    verbRelatedWords.addAll(iRegularVerbConjugation.getPastParticiples());
+                }
+            }
+            for (SubjectType subjectType : iRegularVerbConjugation.getSupportedSubjectTypes()) {
+                verbRelatedWords.addAll(iRegularVerbConjugation.getPastTenses(subjectType));
+                verbRelatedWords.add(iRegularVerbConjugation.getPresentTense(subjectType));
+            }
+        }
+
         verbRelatedWords = verbRelatedWords.stream().distinct().collect(Collectors.toList());
         Collections.sort(verbRelatedWords);
         return verbRelatedWords;
@@ -249,7 +287,7 @@ public class JohnsonsDictionaryWords {
         words.addAll(getAdverbs());
         words.addAll(getAdjectives());
         words.addAll(getSuperlativeAdjectives());
-        words.addAll(getVerbsIncludingConjugations());
+        words.addAll(getVerbsIncludingVerbConjugations());
         words.addAll(getInterjections());
         words.addAll(getNounsAndPlurals());
         words.addAll(getPrepositions());

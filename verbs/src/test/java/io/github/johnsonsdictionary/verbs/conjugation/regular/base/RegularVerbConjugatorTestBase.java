@@ -2,10 +2,11 @@ package io.github.johnsonsdictionary.verbs.conjugation.regular.base;
 
 import io.github.johnsonsdictionary.dictionary.core.words.WordDefinition;
 import io.github.johnsonsdictionary.dictionary.core.words.WordDefinitionId;
+import io.github.johnsonsdictionary.verbs.conjugation.VerbConjugation;
+import io.github.johnsonsdictionary.verbs.conjugation.VerbConjugator;
 import io.github.johnsonsdictionary.verbs.conjugation.VerbConjugators;
 import io.github.johnsonsdictionary.verbs.conjugation.base.VerbConjugatorTestBase;
 import io.github.johnsonsdictionary.verbs.conjugation.regular.RegularVerbConjugation;
-import io.github.johnsonsdictionary.verbs.conjugation.regular.RegularVerbConjugator;
 import io.github.johnsonsdictionary.verbs.conjugation.util.VerbConjugationCSVReader;
 
 import java.util.Arrays;
@@ -15,7 +16,9 @@ import java.util.SortedMap;
 public class RegularVerbConjugatorTestBase extends VerbConjugatorTestBase {
 
 
-    protected final static String EXPECTED_CONJUGATED_JOHNSONS_ALL_VERBS_FILE_PATH = "/english/regular/en-GB/johnsons_all_verbs_conjugations.csv";
+    protected final static String EXPECTED_CONJUGATED_JOHNSONS_ALL_VERBS_FILE_PATH = "/english/regular/en-GB/johnsons_regular_verbs_conjugations.csv";
+
+    protected final static String EXPECTED_CONJUGATED_JOHNSONS_ALL_MULTI_WORD_VERBS_FILE_PATH = "/english/regular/en-GB/johnsons_multi_word_verbs_conjugations.csv";
 
     protected final static String EXPECTED_CONJUGATED_VERBS_STARTING_WITH_A_FILE_PATH = "/english/regular/en-GB/regular_verbs_a_conjugations.csv";
     protected final static String EXPECTED_CONJUGATED_VERBS_STARTING_WITH_B_FILE_PATH = "/english/regular/en-GB/regular_verbs_b_conjugations.csv";
@@ -44,6 +47,10 @@ public class RegularVerbConjugatorTestBase extends VerbConjugatorTestBase {
     protected final static String EXPECTED_CONJUGATED_VERBS_STARTING_WITH_Y_FILE_PATH = "/english/regular/en-GB/regular_verbs_y_conjugations.csv";
     protected final static String EXPECTED_CONJUGATED_VERBS_STARTING_WITH_Z_FILE_PATH = "/english/regular/en-GB/regular_verbs_z_conjugations.csv";
 
+    public RegularVerbConjugatorTestBase(VerbConjugator<VerbConjugation> verbConjugator) {
+        super(verbConjugator);
+    }
+
     protected void testVerbConjugation(SortedMap<WordDefinitionId, WordDefinition> verbs, String expectedResultsFilePaths) {
         testVerbConjugation(verbs, Arrays.asList(expectedResultsFilePaths));
     }
@@ -51,13 +58,13 @@ public class RegularVerbConjugatorTestBase extends VerbConjugatorTestBase {
 
         protected void testVerbConjugation(SortedMap<WordDefinitionId, WordDefinition> verbs, List<String> expectedResultsFilePaths) {
 
-        RegularVerbConjugator regularVerbConjugator = VerbConjugators.REGULAR_VERB_CONJUGATOR;
+        VerbConjugator<VerbConjugation> regularVerbConjugator = VerbConjugators.REGULAR_VERB_CONJUGATOR;
 
         SortedMap<WordDefinitionId, RegularVerbConjugation> expectedConjugatedVerbs =
                 new VerbConjugationCSVReader<>((i, v) ->
                         new RegularVerbConjugation(v.get(0), i.getMeaningId(), getValuesFromVariables(v, "past_tense", false), getValuesFromVariables(v, "present_participle", true)),
                         false, expectedResultsFilePaths).load();
 
-        testVerbConjugation(regularVerbConjugator, expectedConjugatedVerbs, verbs);
+        testVerbConjugation(expectedConjugatedVerbs, verbs);
     }
 }
